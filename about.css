@@ -148,7 +148,7 @@ h3.mnbt {
     width: 60%;
     height: auto;
     
-font-size: 2.15vw;
+font-size: 2vw;
 font-weight: 370;
 font-stretch: semi-expanded;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -174,7 +174,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: auto;
 
     position: absolute;
-    top: 128%;
+    top: 135%;
     left: 51%;
     float: left;
 }
@@ -185,13 +185,13 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 68%;
     height: auto;
     
-font-size: 2.15vw;
+font-size: 2vw;
 font-weight: 370;
 font-stretch: semi-expanded;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     text-align: match-parent;
-    top: 137%;
+    top: 145%;
     left: 32%;
 }
 
