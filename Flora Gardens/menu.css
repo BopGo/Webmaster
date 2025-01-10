@@ -1,0 +1,261 @@
+body {
+    overflow-x: hidden;
+   
+}
+
+.logo {
+    position: absolute;
+        bottom: 81.5%;
+        max-width: 17%;
+        min-width:15%;
+        max-height: 12.5%;
+        min-height:11%;
+}
+
+
+.white {
+    min-height: 12%;
+    height:auto;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+        position: absolute;
+             top: 6.5%;
+            right: 0px;
+}
+
+
+
+.brown {
+    width: 100%;
+    height: 6.5%;
+    min-height:10px;
+         position: absolute;
+            right: 0px;
+            top: 0px;
+    background-color: rgb(36, 22, 10);
+}
+
+    .farm-table {
+        position: absolute;
+            left: 79.2%;
+             font-size: 80%;
+            font-weight: bold;
+            word-spacing: 4.5%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             bottom: 95%;
+  color: rgb(233, 226, 221);
+}
+    
+
+
+.dine {
+        position:absolute;
+            left: 76%;
+            bottom: 93%;
+            word-spacing: 4.5%;
+            font-size: 80%;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(233, 226, 221);
+}
+
+.menubar a{
+    position:relative;
+    left: 43%;
+    top: 8.9vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:100;
+    color: rgb(36, 22, 10);  
+    word-spacing: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+a:hover {
+
+    color: rgb(132, 186, 38);
+    
+}
+
+.media {
+        position: absolute;
+             top: 1.5%;
+             left: 1.2%;
+     word-spacing: 7%;
+}
+
+
+.GB {
+
+    width: 100%;
+    max-height: 25%;
+  
+   position: absolute;
+    top: 19.5%;
+}
+.appics {
+
+    width: 23%;
+    height: auto;
+    position: absolute;
+    top: 52%;
+    left: 64%;
+}
+
+.aphead {
+
+    width: 27%;
+    height: auto;
+
+    position: absolute;
+    top: 57%;
+    left: 20%;
+    float: left;
+}
+
+.aplist {
+
+
+    width: 37%;
+    height: auto;
+    
+    position: absolute;
+    top: 70%;
+    left: 14.5%;
+
+}
+
+
+
+.entrepics {
+
+    width: 23%;
+    height: auto;
+
+    position: absolute;
+    top: 150%;
+    left: 13%;
+}
+
+.entrehead {
+
+    width: 27%;
+    height: auto;
+
+    position: absolute;
+    top: 161%;
+    left: 46%;
+    float: left;
+}
+
+.entrelist {
+
+
+    width: 37%;
+    height: auto;
+    
+    position: absolute;
+    top: 173%;
+    left: 42%;
+}
+
+
+.desertpics {
+
+    width: 23%;
+    height: auto;
+
+    position: absolute;
+    top: 249%;
+    left: 64%;
+}
+
+.deserthead {
+
+    width: 27%;
+    height: auto;
+
+    position: absolute;
+    top: 260%;
+    left: 21.5%;
+    float: left;
+}
+
+.desertlist {
+
+
+    width: 39%;
+    height: auto;
+    
+    position: absolute;
+    top: 272%;
+    left: 15.5%;
+
+}
+
+.bevpics {
+
+    width: 23%;
+    height: auto;
+
+    position: absolute;
+    top: 339%;
+    left: 13%;
+}
+
+.bevhead {
+
+    width: 27%;
+    height: auto;
+
+    position: absolute;
+    top: 346%;
+    left: 49.9%;
+    float: left;
+}
+
+.bevlist {
+
+
+    width: 37%;
+    height: auto;
+    
+    position: absolute;
+    top: 356%;
+    left: 45%;
+}
+
+.mnt {
+position: absolute;
+top: 10.5%;
+left: 50%;
+font-size: 32px;
+color: #E8B668;
+max-width:30%;
+min-width:20%;
+text-decoration: none;
+width:auto;
+max-height: 16%;
+height:auto;
+border-radius: 50px;
+
+background-color: color-mix(
+in srgb,
+#24130F ,transparent 40%);
+
+}
+
+h3.mnbt {
+    position: absolute;
+    top: 19%;
+    left: 42.7%;
+    font-size: 3vw;
+    font-weight: 80;
+    color: #E8B668;
+    padding: 1% 3%;
+    background-color:color-mix(
+        in srgb,
+        #24130F ,transparent 40%);
+    border-radius: 3vw;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html
+class="shiftless-scrollbar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Flora Gardens</title>
+  <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/ba/32/e1/ba32e12eecec51f596d403f070bd42fc.jpg"
+  sizes="any" type="image/svg+xml"><!--favicon(the logo at the top of the page)-->
+    <meta charset="utf-8"  name="viewport" content="width=device-width; initial-scale=1.0;"/>
+    <title></title>
+
+<div class="brown"></div>
+<div class="white"></div> 
+<div class="lineo"></div>
+<div class="linet"></div>
+
+<body>
+    <span class="media"> 
+        <a  href="https://facebook.com" target="_blank"> 
+        <img src="https://i.imgur.com/EK7gw34.png"
+        height="21"
+         alt="facebook.com"></a><!--links for facebook-->
+         
+        <a  href="https://youtube.com" target="_blank">
+        <img src="https://i.imgur.com/2PZv4KW.png"
+        height="21"
+        alt="youtube.com"></a><!--links for youtube-->
+
+        <a  href="https://instagram.com"target="_blank">
+        <img src="https://i.imgur.com/PARyuvD.png"
+        height="21"
+        alt="instagram.com"></a><!--links for insta-->
+
+        <a href="https://twitter.com"target="_blank">
+        <img src="https://i.imgur.com/Jj6NgR5.png"
+        height="21"
+        alt="twitter.com"></a><!--links for twitter-->
+
+        <a  href="https://mail.google.com"target="_blank">
+        <img src="https://i.imgur.com/mqmxSVi.png"
+        height="21"
+        alt="mail.google.com"></a></span> <!--links for mail-->
+          
+          
+           <span><p class="farm-table" style="float:right">Farm To Table</p>
+            <p class="dine">Dine in - Take Out - Delivery</p></span>
+    
+               <a href="home.html"><img class="logo" src="https://i.imgur.com/e5AYhBV.png" alt="logo"></a>
+               <!--Logo-->
+       
+               <div class="div">
+                  <span class="menubar" >
+                  <a href="home.html">Home | </a><!--Link to the home page-->
+                  <a href="about.html">About | </a><!--Link to about page-->
+                  <a href="menu.html">Menu | </a><!--Link to Menu page-->
+                  <a href="reservation.html">Reservations | </a><!--Link to reservation page-->
+                  <a href="contact.html">Contact | </a> <!--Link to contact page-->
+                  <a href="referencepage.html">Reference</a></span> <!--link to reference page-->
+   </div>
+<img class="GB" src="https://imgur.com/TJaWj87.png" alt=".">
+<img class="bg" src="https://imgur.com/f3LLiEr.png" alt=".">
+<img class="meat" src="https://imgur.com/scLI040.png" alt=".">
+<img class="circle" src="https://imgur.com/v9UwMki.pn" alt=".">
+
+<p class="whiteblock">Make Reservations Here</p>
+
+<p class="circle1">Walk-in tables
+    <br> are not guarenteed. Please make a reservation to 
+    <br>secure a spot</p>
+
+<div class="bottomwhite"></div>
+<div class="line1"></div>
+<div class="line2"></div>
+
+
+<h3 class="title">RESERVATIONS</h3>
+
+<h3 class="name">Name reservation will be under:</h3>
+<input class="nameblock" onclick ="clicks()"type="text" id="name" name="name"></input>
+<script>
+    function clicks(){
+        const name = document.getElementById("name")
+        name.style.backgroundColor="white"
+        error.textContent = ""
+    }
+</script>
+
+
+<h3 class="amount">Party amount- Limit of 15 people:</h3>
+<input class="amountblock" onclick= "whenclick()" type="text" maxlength = "2" id= "guests" name="guests">
+<script>
+    function whenclick(){
+        const guest2 = document.getElementById("guests")
+        guest2.style.backgroundColor="white"
+        error.textContent = ""
+    }
+</script>
+
+<h3 class="time">Choose a time:</h3>
+<select class="timeblock" id="time" name="time"></select>
+<script>
+    dropdown = document.getElementById("time")
+
+    //gives out the times in 15min intervals from 10:00am to 7pm
+        var x = 10
+        var y = "00"
+    for(let i = 0; i < 37; i++){
+        const option = document.createElement("option");
+        if (x==10 || x==11 || x==12){
+            option.value = x + ":" + y + "am"
+            option.textContent = x + ":" + y + "am"
+            dropdown.appendChild(option)
+        }else{
+            option.value = x + ":" + y + "pm"
+            option.textContent = x + ":" + y + "pm"
+            dropdown.appendChild(option)
+        }
+        if (y=="00"){
+            y="15"
+        }else if(y=="15"){
+            y="30"
+        }else if(y=="30"){
+            y="45"
+        }else if(y=="45"){
+            y="00"
+            x=x+1
+        }
+        if (x==13){
+            x=1
+        }
+        
+    }
+</script>
+
+
+
+
+<h3 class="date">Choose a date:</h3>
+<input class="dateblock" onclick = "clicked()" type = "date" id = "date" name = "date"></input>
+<script>
+    function clicked(){
+        const date = document.getElementById("date")
+        date.style.backgroundColor = "#E8B668"
+        error.textContent = "" 
+    }
+</script>
+
+<button class="confirm" onclick="myFunctions()">Confirm Reservation</button>
+<script>
+    function myFunctions(){
+        if (myFunction() == true){
+            let name5 = document.getElementById("name").value
+            let guests5 = document.getElementById("guests").value
+            let date5 = document.getElementById("date").value
+            let time5 = document.getElementById("time").value
+            error.textContent = "name: " + name5 + "\nGuests: " + guests5 + "\nDate/time: " + date5 + " at " + time5
+            let confirm1 = document.getElementById("confirm")
+            confirm1.style.display = "block"
+        }
+    }
+    function myFunction(){
+        //invalid dates
+        const date = document.getElementById("date")
+        const date1 = document.getElementById("date").value
+        
+        //7 days ahead
+        const today = new Date();
+        const nextWeek = new Date(today);
+        nextWeek.setDate(today.getDate() + 7); 
+        const formattedDate1 = nextWeek.toLocaleDateString('en-CA');
+        //today
+        const date3 = new Date();
+        const formattedDate = date3.toLocaleDateString('en-CA'); // Output: "YYYY-MM-DD"
+        if (date1<formattedDate){
+            date.style.backgroundColor = "#e86c68"
+            error.textContent = "Invalid. Date has already passed"
+            return false
+        }else if ((date1>formattedDate)&&(date1<formattedDate1)){
+            date.style.backgroundColor = "#e86c68"
+            error.textContent = "Invalid. Date is not over one week ahead"
+            return false
+        }
+
+        //invalid guests
+        var guest1 = document.getElementById("guests")
+        //document.getElementById("guests").addEventListener(click,"click()")
+        var guest = document.getElementById("guests").value
+        for(let i = 0; i<guest.length; i++){
+            if ((guest[i]!=1)&&(guest[i]!=2)&&(guest[i]!=3)&&(guest[i]!=4)&&(guest[i]!=5)&&(guest[i]!=6)&&(guest[i]!=7)&&(guest[i]!=8)&&(guest[i]!=9)&&(guest[i]!=0)){
+                guest1.style.backgroundColor = "#e86c68"
+                error.textContent = "Invalid. Guest is not a number"
+                return false
+            }
+        }
+        if (guest>50){
+            guest1.style.backgroundColor = "#e86c68"
+            error.textContent = "Invalid. Guests are over 50"
+            return false
+        }else if(guest<1){
+            guest1.style.backgroundColor = "#e86c68"
+            error.textContent = "Invalid. Guest is less than 1"
+            return false
+        }
+
+        //invalid names
+        const name = document.getElementById("name")
+        const name1 = document.getElementById("name").value
+        if (name1 == ""){
+            name.style.backgroundColor = "#e86c68"
+            error.textContent = "Invalid. No name"
+            return false
+        }
+        return true
+    }
+</script>
+<pre><span id = "error"></span></pre>
+<button class="confirm2" id = "confirm" Style = "display: none"><a href="home.html" style="text-decoration: none;">Confirm Reservation</a></button>
+
+
+
+   <link rel="stylesheet" href="reservation.css">
+</body>
+</html>
