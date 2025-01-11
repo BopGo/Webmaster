@@ -35,28 +35,28 @@ body {
     background-color: rgb(36, 22, 10);
 }
 
-    .farm-table {
-        position: absolute;
-            left: 79.2%;
-             font-size: 80%;
-            font-weight: bold;
-            word-spacing: 4.5%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-             bottom: 95%;
-  color: rgb(233, 226, 221);
+.farm-table {
+    position: absolute;
+        left: 79.2%;
+         font-size: 80%;
+        font-weight: bold;
+        word-spacing: 4.5%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         bottom: 94.5%;
+color: rgb(233, 226, 221);
 }
-    
+
 
 
 .dine {
-        position:absolute;
-            left: 76%;
-            bottom: 93%;
-            word-spacing: 4.5%;
-            font-size: 80%;
-            font-weight: bold;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(233, 226, 221);
+    position:absolute;
+        left: 76%;
+        bottom: 92.5%;
+        word-spacing: 4.5%;
+        font-size: 80%;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(233, 226, 221);
 }
 
 .menubar a{
