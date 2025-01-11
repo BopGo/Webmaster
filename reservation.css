@@ -291,7 +291,8 @@ button.confirm2 {
     height: 20%;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    top: 175%;
+    top: 180%;
+    left: 0%;
 }
 
 .line1 {
@@ -300,6 +301,7 @@ button.confirm2 {
     height: 0.5%;
     position: absolute;
     top: 52.5%;
+    left: 0%;
 }
 
 .line2 {
@@ -307,5 +309,6 @@ background-color: #E8B668;
 width: 100%;
 height: 0.5%;
 position: absolute;
-top: 185%;
+top: 190%;
+left: 0%;
 }
