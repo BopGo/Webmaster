@@ -35,19 +35,6 @@ body {
     background-color: rgb(36, 22, 10);
 }
 
-    .farm-table {
-        position: absolute;
-            left: 79.2%;
-             font-size: 80%;
-            font-weight: bold;
-            word-spacing: 4.5%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-             bottom: 95%;
-  color: rgb(233, 226, 221);
-}
-    
-
-
 .farm-table {
     position: absolute;
         left: 79.2%;
@@ -70,6 +57,18 @@ color: rgb(233, 226, 221);
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: rgb(233, 226, 221);
+}
+
+.menubar a{
+    position:relative;
+    left: 43%;
+    top: 8.9vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:100;
+    color: rgb(36, 22, 10);  
+    word-spacing: 5px;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 
