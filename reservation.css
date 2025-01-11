@@ -158,8 +158,8 @@ a:hover {
 
     position: absolute;
     left: 5%;
-    top: 69%;
-    height: 89%;
+    top: 63%;
+    height: 87%;
     width: 40%;
     border-radius: 10%;
     background-color: rgb(255, 255, 255);
@@ -167,7 +167,7 @@ a:hover {
 
 .name {
     position: absolute;
-    top: 90%;
+    top: 84%;
     left: 12%;
     font-size: 1.7vw;
 
@@ -178,7 +178,7 @@ a:hover {
 
 .nameblock {
     position: absolute;
-    top: 99%;
+    top: 93%;
     left: 9%;
     width: 31%;
     height: 6%;
@@ -189,7 +189,7 @@ a:hover {
 
 .amount {
     position: absolute;
-    top: 106%;
+    top: 100%;
     left: 11%;
 
     font-size: 1.7vw;
@@ -199,7 +199,7 @@ a:hover {
 
 .amountblock {
     position: absolute;
-    top: 115%;
+    top: 109%;
     left: 9%;
     width: 31%;
     height: 6%;
@@ -209,7 +209,7 @@ a:hover {
 
 .time {
     position: absolute;
-    top: 120%;
+    top: 114%;
     left: 18%;
 
     font-size: 1.7vw;
@@ -219,7 +219,7 @@ a:hover {
 
 .timeblock {
     position:absolute;
-    top: 130%;
+    top: 124%;
     left: 17.5%;
     width: 13%;
     height: 6%;
@@ -234,7 +234,7 @@ a:hover {
 
 .date {
     position: absolute;
-    top: 135%;
+    top: 129%;
     left: 18%;
 
     font-size: 1.7vw;
@@ -244,7 +244,7 @@ a:hover {
 
 .dateblock {
     position:absolute;
-    top: 145%;
+    top: 139%;
     left: 17.5%;
     width: 13%;
     height: 6%;
@@ -260,7 +260,7 @@ a:hover {
 button.confirm {
     position: absolute;
     position: absolute;
-    top: 157%;
+    top: 151%;
     left: 15%;
 
     font-size: 1.7vw;
@@ -274,7 +274,7 @@ button.confirm {
 
 button.confirm2 {
     position: absolute;
-    top: 157%;
+    top: 151%;
     left: 15%;
 
     font-size: 1.7vw;
@@ -288,7 +288,7 @@ button.confirm2 {
 
 .bottomwhite { 
     position: absolute;
-    height: 20%;
+    height: 13%;
     width: 100%;
     background-color: rgb(255, 255, 255);
     top: 180%;
@@ -309,6 +309,6 @@ background-color: #E8B668;
 width: 100%;
 height: 0.5%;
 position: absolute;
-top: 190%;
+top: 187%;
 left: 0%;
 }
