@@ -9,7 +9,7 @@ body {
         bottom: 81.5%;
         max-width: 17%;
         min-width:15%;
-        max-height: 12.5%;
+        max-height: 12%;
         min-height:11%;
 }
 
@@ -33,7 +33,7 @@ body {
          position: absolute;
             right: 0px;
             top: 0px;
-    background-color: rgb(36, 22, 10);
+    background-color: #24160a;
 }
 
 .farm-table {
@@ -64,7 +64,7 @@ color: rgb(233, 226, 221);
     position:relative;
     left: 43%;
     top: 8.9vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight:100;
     color: rgb(36, 22, 10);  
     word-spacing: 5px;
@@ -88,11 +88,21 @@ a:hover {
 
 .scut {
     position: absolute;
-        bottom: 36%;
-        right: 10%;
-        max-width: 70%;
-        max-height: 45%;
-        object-fit: contain;
+        bottom: 33%;
+        right: 15.5%;
+        font-family: "Libre Caslon Text", sans-serif;
+        font-size: 9.5vw;
+        color:white;
+}
+
+.scut2 {
+    position: absolute;
+        bottom: 13%;
+        right: 9.5%;
+        font-family: "Libre Caslon Text", sans-serif;
+        font-size: 9.5vw;
+        color:white;
+        text-align: center;
 }
 
 .lineo {
@@ -109,22 +119,24 @@ a:hover {
     width: 65%;
     height: 0.5%;
     position: absolute;
-    bottom: 32%;
+    bottom: 28%;
     right: 2.5%;
 }
 
 .vega {
         position: absolute;
-        bottom: 29.5%;
-        max-width: 40%;
-        width: auto;        
-        right: 12%;
+        bottom: 22%;
+        right: 16%;
+        font-family: "Libre Caslon Text", sans-serif;
+        font-size: 3vw;
+        color: #eda434;
+
 }
 
 
 .rpu {
     position: absolute;
-        bottom: 21%;
+        bottom: 16%;
         right: 28%;
         max-width:18%;
         min-width:14%;
@@ -137,9 +149,10 @@ a:hover {
         in srgb,
         #f4d6a9 ,transparent 40%);
 
- font-size: 3vw;
+ font-size: 2.8vw;
      text-decoration: none;
      text-align: center;
      color: rgb(255, 255, 255);
+     font-family: "Montserrat",sans-serif;
 }
   
