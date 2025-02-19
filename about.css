@@ -9,7 +9,7 @@ body {
         bottom: 81.5%;
         max-width: 17%;
         min-width:15%;
-        max-height: 12.5%;
+        max-height: 12%;
         min-height:11%;
 }
 
@@ -64,7 +64,7 @@ color: rgb(233, 226, 221);
     position:relative;
     left: 43%;
     top: 8.9vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight:100;
     color: rgb(36, 22, 10);  
     word-spacing: 5px;
@@ -109,7 +109,7 @@ a:hover {
 h3.mnbt {
     position: absolute;
     top: 19%;
-    left: 42.7%;
+    left: 41%;
     font-size: 2.5vw;
     font-weight: 80;
     color: #E8B668;
@@ -122,24 +122,45 @@ h3.mnbt {
 
 .abt1 {
 
-    width: 35%;
+    width: 21%;
     height: auto;
     position: absolute;
-    top: 52%;
-    left: 64%;
+    top: 55%;
+    right: 12%;
 }
 
+.abt1img2 {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 90%;
+    right: 21%;
+}
 
+.abt1img3 {
+    width: 11%;
+    height: auto;
+    position: absolute;
+    top: 87%;
+    right: 8%;
+}
 
 .wwa {
-
-    width: 30%;
-    height: auto;
-
+    font-family: "montserrat", sans-serif;
+    font-size: 2.5vw;
     position: absolute;
-    top: 53%;
-    left: 22.5%;
+    top: 48%;
+    left: 26%;
     float: left;
+}
+
+.wwaline {
+    position: absolute;
+    top: 60%;
+    left: 17.5%;
+    background-color:#E8B668;
+    width: 35%;
+    height: 0.5%;
 }
 
 .wwap {
@@ -154,29 +175,46 @@ font-stretch: semi-expanded;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     top: 60%;
-    left: 12%;
+    left: 4%;
+    text-align: center;
 
 }
 
 .abt2 {
 
-    width: 29%;
+    width: 15%;
     height: auto;
 
     position: absolute;
-    top: 110%;
+    top: 120%;
+    left: 7%;
+}
+
+.abt2img2 {
+    width: 23%;
+    height: auto;
+
+    position: absolute;
+    top: 160%;
     left: 5%;
 }
 
 .sh {
-
-    width: 32%;
-    height: auto;
-
     position: absolute;
-    top: 135%;
-    left: 51%;
+    font-family: "montserrat", sans-serif;
+    font-size: 2.5vw;
+    top: 127%;
+    left: 56%;
     float: left;
+}
+
+.sline {
+    position: absolute;
+    top: 140%;
+    right: 18.5%;
+    background-color:#E8B668;
+    width: 35%;
+    height: 0.5%;
 }
 
 .sp {
@@ -190,41 +228,164 @@ font-weight: 370;
 font-stretch: semi-expanded;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
-    text-align: match-parent;
-    top: 145%;
-    left: 32%;
+    text-align: center;
+    top: 139%;
+    left: 31%;
 }
 
 .abt3 {
 
-    width: 35%;
+    width: 20%;
     height: auto;
     position: absolute;
-    top: 193%;
-    left: 64%;
+    top: 190%;
+    left: 69%;
+
 }
 
+.abt3img2 {
 
-.ph {
-
-    width: 30%;
+    width: 20%;
     height: auto;
+    position: absolute;
+    top: 220%;
+    left: 55%;
 
+}
+
+.abt3img3 {
+
+    width: 12%;
+    height: auto;
+    position: absolute;
+    top: 224%;
+    left: 77%;
+
+}
+
+.abt3img4 {
+
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 250%;
+    left: 55%;
+
+}
+
+.abt3img5 {
+
+    width: 23%;
+    height: auto;
+    position: absolute;
+    top: 250%;
+    left: 70%;
+
+}
+
+.processh {
     position: absolute;
     top: 200%;
-    left: 20%;
-    float: left;
+    left:13%;
+    font-family: "montserrat", sans-serif;
+    font-size: 2.5vw;
+}
+
+.processline {
+    position: absolute;
+    top: 213%;
+    left: 8%;
+    background-color:#E8B668;
+    width: 35%;
+    height: 0.5%;
+}
+
+.grow {
+    position: absolute;
+    top: 215%;
+    left: 15%;
+    font-family: "montserrat", sans-serif;
+    font-size: 1.5vw;
+}
+
+.arrow1 {
+    position: absolute;
+    top: 198%;
+    left: 21%;
+    font-family: "montserrat", sans-serif;
+    font-size: 10vw;
+    color: #aacff0
+}
+
+.drivers {
+    position: absolute;
+    top: 227%;
+    left: 8.75%;
+    font-family: "montserrat", sans-serif;
+    font-size: 1.5vw;
+}
+
+.arrow2 {
+    position: absolute;
+    top: 210%;
+    left: 21%;
+    font-family: "montserrat", sans-serif;
+    font-size: 10vw;
+    color: #aacff0
+}
+
+.chef {
+    position: absolute;
+    top: 239%;
+    left: 8.75%;
+    font-family: "montserrat", sans-serif;
+    font-size: 1.5vw;
+}
+
+.arrow3 {
+    position: absolute;
+    top: 222%;
+    left: 21%;
+    font-family: "montserrat", sans-serif;
+    font-size: 10vw;
+    color: #aacff0
+}
+
+.order {
+    position: absolute;
+    top: 251%;
+    left: 17%;
+    font-family: "montserrat", sans-serif;
+    font-size: 1.5vw;
+}
+
+.arrow4 {
+    position: absolute;
+    top: 234%;
+    left: 21%;
+    font-family: "montserrat", sans-serif;
+    font-size: 10vw;
+    color: #aacff0
+}
+
+.arrive {
+    position: absolute;
+    top: 263%;
+    left: 7.5%;
+    font-family: "montserrat", sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
 }
 
 .processpi {
 
     width: 38%;
   position: absolute;
-  top: 217%;
-  left: 17%;
- 
+  top: 200%;
+  left: 13%;
 
 }
+
 .w {
 
 
